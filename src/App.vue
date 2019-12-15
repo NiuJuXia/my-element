@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <el-button type="primary" :loading="true" @click="buttonClick">主要按钮</el-button>
+    <el-button type="primary" icon="el-icon-edit" @click="buttonClick"></el-button>
     <mybutton type="primary" >凄凄切切群主要按钮</mybutton>
     <button id='qwer'  @click="buttonClic">原生</button>
-    <a id='a1' href="">789</a>
+    <div class='qw qwe'>div</div>
     <vuetry></vuetry>
   </div>
 </template>
@@ -69,7 +69,12 @@ export default {
       background-color: rgba(255,255,255,.35);
     }
 }
-#a1 {
-  user-select:none
+.qw {
+  width: 100px;
+  height: 100px;
+  background: red;
+}
+.qwe{
+  background: green;
 }
 </style>
