@@ -4,7 +4,8 @@
     <mybutton type="primary" >凄凄切切群主要按钮</mybutton>
     <button id='qwer'  @click="buttonClic">原生</button>
     <div class='qw qwe'>div</div>
-    <vuetry></vuetry>
+    <vuetry></vuetry>s
+    <div>change MAC SourceTrees</div>
   </div>
 </template>
 
