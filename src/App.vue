@@ -5,7 +5,7 @@
     <button id='qwer'  @click="buttonClic">原生</button>
     <div class='qw qwe'>div</div>
     <vuetry></vuetry>s
-    <div>change MAC SourceTrees</div>
+    <div>change MAC SourceTrees 2</div>
   </div>
 </template>
 
